@@ -1,32 +1,8 @@
 # IAM Implementation Portfolio
 
-<!--
-HOW TO USE THIS TEMPLATE
-------------------------
-This is your portfolio scaffold. The structure is already built for you.
-Your job is to fill in each section with your own work as you go through the course.
-
-1. Replace every [PLACEHOLDER] with your own details.
-2. As you finish each part of the build, complete that capability's section below.
-3. Drop your screenshots into /screenshots and your config files into /artifacts,
-   then update the links.
-4. Delete these HTML comment instructions once you have filled a section.
-
-Do not try to fill it all at once. Complete a capability's section right after you
-build it in the course, while it is fresh. That is how you end up with a portfolio
-that actually reflects what you built and understand.
-
-This portfolio is organized by CAPABILITY, not by course module. A recruiter or
-interviewer should land here and immediately see what you can DO: onboard identities,
-provision to targets, run the mover, certify access, federate with real protocols.
-That framing is what turns a portfolio into interviews. You do not need every section
-filled to start applying, build it up as you go, and lead with the capabilities you
-are most confident explaining.
--->
-
-**Name:** [YOUR NAME]
-**LinkedIn:** [linkedin.com/in/yourprofile]
-**GitHub:** [github.com/yourusername]
+**Name:** Taiwei Ko
+**LinkedIn:** linkedin.com/in/taiweiko
+**GitHub:** github.com/macgeek39
 **Status:** In progress
 
 ---
@@ -36,8 +12,6 @@ are most confident explaining.
 I built a complete IAM environment from scratch using midPoint (IGA), a simulated HR source, OpenLDAP (target directory), and Auth0 (access management and federation). The environment runs locally and replicates how IAM works on a real enterprise engagement, from HR-triggered identity lifecycle through governance and certification, to customer identity and federation with live protocols.
 
 This repository documents my configuration, architectural decisions, and analysis for each capability I built. It is intended as portfolio evidence for IAM implementation and engineering roles.
-
-<!-- Once you are further along, rewrite this in your own words and name the specific roles you are targeting. -->
 
 ---
 
@@ -93,8 +67,8 @@ This repository documents my configuration, architectural decisions, and analysi
 [Describe the architecture you mapped: the source, the IGA platform, the target, and the access management layer. Note the stakeholder groups you identified and what each cared about.]
 
 **Architecture diagram:**
-```
-[Draw your architecture as a simple text diagram, for example:]
+
+
 SimplifyHR (source of truth)
       |  midPoint reads changes
       v
@@ -104,7 +78,7 @@ midPoint (IGA: lifecycle, RBAC, governance, audit)
 OpenLDAP (target directory)
 
 Auth0 (access management: OIDC, OAuth, SAML) handles external and app federation
-```
+
 
 **Stakeholder mapping:**
 
